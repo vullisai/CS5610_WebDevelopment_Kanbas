@@ -1,5 +1,5 @@
 import ModuleList from "../Modules/List";
-import { FaEllipsisV, FaCheckCircle, FaPlusCircle, FaDownload, FaArrowCircleRight, FaCrosshairs, FaChartBar, FaBullhorn, FaBell } from "react-icons/fa";
+import { FaDownload, FaArrowCircleRight, FaCrosshairs, FaChartBar, FaBullhorn, FaBell, FaTimes, FaMinusCircle } from "react-icons/fa";
 function Home() {
   return (
     <div className="d-flex">
@@ -46,9 +46,8 @@ function Home() {
                                         <h5>To Do
                                         </h5>
                                         <br/>
-                                        <li className="list-group-item"><a href=""><i
-                                                    className="fa fa-minus-circle fa-rotate-90" aria-hidden="true"></i>
-                                                Grade A1 - ENV + HTML <i className="fa fa-times fa-pull-right" style={{color: "grey"}} aria-hidden="true"></i></a><br/>
+                                        <li className="list-group-item"><link><FaMinusCircle/>
+                                                Grade A1 - ENV + HTML <FaTimes/></link><br/>
                                             <span className="sub-text">100 points | Sep 18 at 11:59PM</span>
                                         </li>
                                     </ul>

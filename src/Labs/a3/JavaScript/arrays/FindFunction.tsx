@@ -7,7 +7,7 @@ function FindFunction(){
         <>
         <h3>Find Function</h3>
         four={four}<br/>
-        string3={'string3'}<br/>
+        string3={string3}<br/>
         </>
     );
 }
