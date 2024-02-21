@@ -15,7 +15,7 @@ function Dashboard() {
               <div className="card">
                 {/* <img src={`/images/${course.image}`} className="card-img-top"
                      style={{ height: 150 }}/> */}
-                <img src={courseImage} className="card-img-top"
+                <img src={courseImage} alt="Course" className="card-img-top"
                      style={{ height: 110 }}/>
                 <div className="card-body">
                   <Link className="card-title" to={`/Kanbas/Courses/${course._id}/Home`}
