@@ -3,7 +3,7 @@ import { FaCheckCircle, FaEllipsisV, FaPlusCircle, FaGripVertical, FaPenSquare, 
 import { Link, useParams,useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { KanbasState } from "../../store";
-import { addAssignment, deleteAssignment, setAssignment } from "./assignmentsReducer";
+import { deleteAssignment, setAssignment } from "./assignmentsReducer";
 function Assignments() {
     const { courseId } = useParams();
     const navigate = useNavigate();
